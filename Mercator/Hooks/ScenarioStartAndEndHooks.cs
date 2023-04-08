@@ -1,6 +1,4 @@
-﻿using System.Security.Policy;
-using BoDi;
-using NUnit.Framework;
+﻿using BoDi;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using TechTalk.SpecFlow;
@@ -12,11 +10,10 @@ namespace CdtTimesheet.Hooks
     {
         private readonly IObjectContainer _objectContainer;
         private IWebDriver _webDriver;
-         
 
         public ScenarioStartAndEndHooks(IObjectContainer objectContainer)
         {
-            this._objectContainer = objectContainer;
+            _objectContainer = objectContainer;
         }
 
         [BeforeScenario]

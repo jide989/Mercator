@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RunSettings>
   <TestRunParameters>
-    <Parameter name ="SiteUrl" value="" />
+    <Parameter name ="SiteUrl" value="http://training.kinsconsultancy.co.uk/shop/" />
   </TestRunParameters>
 </RunSettings>
