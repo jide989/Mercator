@@ -1,8 +1,8 @@
-﻿using CdtTimesheet.Common;
+﻿using Mercator.Common;
 using NUnit.Framework;
 using OpenQA.Selenium;
 
-namespace CdtTimesheet.PageObjects
+namespace Mercator.PageObjects
 {
     public class TatShopPage
     {

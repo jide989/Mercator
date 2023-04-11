@@ -1,7 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
-namespace CdtTimesheet.Common
+namespace Mercator.Common
 {
     public static class WebElementExtensions
     {

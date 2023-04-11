@@ -3,7 +3,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using TechTalk.SpecFlow;
 
-namespace CdtTimesheet.Hooks
+namespace Mercator.Hooks
 {
     [Binding]
     public class ScenarioStartAndEndHooks
