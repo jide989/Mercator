@@ -8,7 +8,7 @@ namespace Mercator.PageObjects
     {
         private readonly IWebDriver _webDriver;
         private readonly string _siteUrl = TestContext.Parameters["SiteUrl"];
-        private readonly By _allTimesheetsId = By.CssSelector("td:nth-child(2)");
+        
         public TatShopPage(IWebDriver webDriver)
         {
             _webDriver = webDriver;
